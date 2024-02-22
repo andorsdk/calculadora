@@ -12,7 +12,12 @@ int main() {
 
     }
     switch (operador) {
-       
+        case '+';
+        //operacion resta
+         resultado = num1+num2;
+            break;
+        case '-';
+        resultado = num1-num2;
             break;
         case '*':
             resultado = num1 * num2;
